@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 414px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "PT Mono", monospace;
+  text-transform: uppercase;
+}
+
+:root {
+  --card-bitcoin: #ffb749;
+  --card-ninja: #3a3a3a;
+  --card-chain: #7c4ede;
+  --card-evil: #db2e4d;
+  --card-new: #d5d5d5;
+}

@@ -1,0 +1,78 @@
+.card-container{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card {
+      width: min(370px, 100%);
+      height: 230px;
+      background-color: #d0d0d0;
+      border-radius: 8px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      font-family: "PT Mono", monospace;
+      text-transform: uppercase;
+      font-size: 12px;
+      box-shadow: 0px 0px 16px 0px #00000014;
+    }
+    
+    .card-header {
+      display: flex;
+      width: 95%;
+      justify-content: space-between;
+    }
+    
+    .blipp-and-chip {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .chip,
+    .blipp {
+      width: 45%;
+    }
+    
+    .bank-logo-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+    
+    .bank-logo {
+      height: 70%;
+    }
+    
+    .card-body {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+    }
+    
+    .card-labels,
+    .card-content {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      font-weight: 400;
+      line-height: 13.44px;
+      color: #000000cc;
+    }
+    
+    .card-number {
+      font-size: 24px;
+      letter-spacing: 3px;
+      color: #000000;
+    }
+    
+    .card-holder,
+    .valid-thru {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 20.16px;
+    }

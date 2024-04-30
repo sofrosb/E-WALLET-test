@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&display=swap");
+
+.button-container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  /* height: 35rem; */
+  flex-direction: column;
+  margin-bottom: 17px;
+}
+
+.button {
+  width: 382px;
+  border-radius: 8px;
+  border: 1px 0px 0px 0px;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "PT Mono", monospace;
+}
+
+.button--home {
+  margin-top: 30rem;
+  background-color: white;
+}
+
+.button--add-card {
+  background-color: black;
+  color: white;
+}
